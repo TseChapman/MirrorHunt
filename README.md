@@ -48,3 +48,13 @@ Transparent Glass Mirror Illustration by 588ku on June 16th, 2018: https://pngtr
 
 # Font Sources:
 Another Danger by The Branded Quotes
+
+# Official Website (host on itch.io)
+Link to page: https://chapmantse.itch.io/mirror-hunt
+
+# Install instructions
+1. Download the zip
+
+2. Extract the zip
+
+3. Double click the MirrorHunt.exe to play the game
