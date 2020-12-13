@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5725019290962744322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5725019290962744324}
+  - component: {fileID: 5725019290962744325}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5725019290962744324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5725019290962744322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5725019290962744325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5725019290962744322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec1d02b73a6e70409d9d71c186b0197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sounds:
+  - name: GunShot
+    clip: {fileID: 8300000, guid: 39f6f0aff66f7ab47bf151d8a069922a, type: 3}
+    volume: 0.4
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: BulletHit
+    clip: {fileID: 8300000, guid: f5c87071dac91d34e872bfc7a07b05ea, type: 3}
+    volume: 0.2
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Alarm
+    clip: {fileID: 8300000, guid: 109e6b572ee81684aa4942d59ac53de4, type: 3}
+    volume: 0.1
+    pitch: 1
+    isLoop: 1
+    source: {fileID: 0}
+  - name: FootStep
+    clip: {fileID: 8300000, guid: 0fd88fa78dbb04949af5428d63f20d1e, type: 3}
+    volume: 0.06
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: FootStep2
+    clip: {fileID: 8300000, guid: 0fd88fa78dbb04949af5428d63f20d1e, type: 3}
+    volume: 0.06
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Roar
+    clip: {fileID: 8300000, guid: 534f6328a85b566448ffb92cb6d3c434, type: 3}
+    volume: 0.2
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: Heartbeat
+    clip: {fileID: 8300000, guid: 01d35af332527cb478a61832f477d303, type: 3}
+    volume: 1
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
+  - name: DemonHurt
+    clip: {fileID: 8300000, guid: 1a8934ea283b757459efeb840f43094d, type: 3}
+    volume: 0.4
+    pitch: 1
+    isLoop: 0
+    source: {fileID: 0}
